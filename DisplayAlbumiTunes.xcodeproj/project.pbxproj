@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9370F5BC1356A1320D75A4DD /* Pods_DisplayAlbumiTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80D9AA78209ACDD7006F44B /* Pods_DisplayAlbumiTunes.framework */; };
 		BC36887527412F180049617B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36887427412F180049617B /* AppDelegate.swift */; };
 		BC36887727412F180049617B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36887627412F180049617B /* SceneDelegate.swift */; };
-		BC36887927412F180049617B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36887827412F180049617B /* ViewController.swift */; };
 		BC36887C27412F180049617B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC36887A27412F180049617B /* Main.storyboard */; };
 		BC36887F27412F180049617B /* DisplayAlbumiTunes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC36887D27412F180049617B /* DisplayAlbumiTunes.xcdatamodeld */; };
 		BC36888127412F190049617B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC36888027412F190049617B /* Assets.xcassets */; };
 		BC36888427412F190049617B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC36888227412F190049617B /* LaunchScreen.storyboard */; };
+		BC368890274130360049617B /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36888F274130360049617B /* AlbumModel.swift */; };
+		BC3688922741304C0049617B /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688912741304C0049617B /* AlbumDetail.swift */; };
+		BC368894274130620049617B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC368893274130620049617B /* ImageView.swift */; };
+		BC368896274130950049617B /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC368895274130950049617B /* CollectionView.swift */; };
+		BC368898274130C60049617B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC368897274130C60049617B /* NetworkManager.swift */; };
+		BC36889A274130DA0049617B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC368899274130DA0049617B /* DataManager.swift */; };
+		BC36889C274130EF0049617B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36889B274130EF0049617B /* Storage.swift */; };
+		BC36889E274131050049617B /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36889D274131050049617B /* SearchCollectionViewController.swift */; };
+		BC3688A0274131130049617B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC36889F274131130049617B /* TableViewController.swift */; };
+		BC3688A22741311F0049617B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688A12741311F0049617B /* DetailViewController.swift */; };
+		BC3688A4274131A30049617B /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688A3274131A30049617B /* Connectivity.swift */; };
+		BC3688A62741397E0049617B /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688A52741397E0049617B /* ImageManager.swift */; };
+		BC3688A927413AB70049617B /* UICollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688A827413AB70049617B /* UICollectionViewFlowLayout.swift */; };
+		BC3688AB27413B9E0049617B /* UISearchResultsUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3688AA27413B9E0049617B /* UISearchResultsUpdating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15773E65D967B63E8B84F4D8 /* Pods-DisplayAlbumiTunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayAlbumiTunes.debug.xcconfig"; path = "Target Support Files/Pods-DisplayAlbumiTunes/Pods-DisplayAlbumiTunes.debug.xcconfig"; sourceTree = "<group>"; };
+		A875DE3D2210756BAC689FA3 /* Pods-DisplayAlbumiTunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayAlbumiTunes.release.xcconfig"; path = "Target Support Files/Pods-DisplayAlbumiTunes/Pods-DisplayAlbumiTunes.release.xcconfig"; sourceTree = "<group>"; };
 		BC36887127412F180049617B /* DisplayAlbumiTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayAlbumiTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC36887427412F180049617B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC36887627412F180049617B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC36887827412F180049617B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC36887B27412F180049617B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC36887E27412F180049617B /* DisplayAlbumiTunes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DisplayAlbumiTunes.xcdatamodel; sourceTree = "<group>"; };
 		BC36888027412F190049617B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC36888327412F190049617B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC36888527412F190049617B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC36888F274130360049617B /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		BC3688912741304C0049617B /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		BC368893274130620049617B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		BC368895274130950049617B /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		BC368897274130C60049617B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BC368899274130DA0049617B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BC36889B274130EF0049617B /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		BC36889D274131050049617B /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
+		BC36889F274131130049617B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BC3688A12741311F0049617B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BC3688A3274131A30049617B /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		BC3688A52741397E0049617B /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		BC3688A827413AB70049617B /* UICollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		BC3688AA27413B9E0049617B /* UISearchResultsUpdating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchResultsUpdating.swift; sourceTree = "<group>"; };
+		C80D9AA78209ACDD7006F44B /* Pods_DisplayAlbumiTunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisplayAlbumiTunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9370F5BC1356A1320D75A4DD /* Pods_DisplayAlbumiTunes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0860BE252C7980A5AABC5F52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15773E65D967B63E8B84F4D8 /* Pods-DisplayAlbumiTunes.debug.xcconfig */,
+				A875DE3D2210756BAC689FA3 /* Pods-DisplayAlbumiTunes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC36886827412F180049617B = {
 			isa = PBXGroup;
 			children = (
 				BC36887327412F180049617B /* DisplayAlbumiTunes */,
 				BC36887227412F180049617B /* Products */,
+				0860BE252C7980A5AABC5F52 /* Pods */,
+				FC058DE1251457BDB2897ADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +102,11 @@
 			children = (
 				BC36887427412F180049617B /* AppDelegate.swift */,
 				BC36887627412F180049617B /* SceneDelegate.swift */,
-				BC36887827412F180049617B /* ViewController.swift */,
+				BC3688A727413A540049617B /* ExtensionSearchVC */,
+				BC36888E27412F3C0049617B /* View */,
+				BC36888D27412F330049617B /* Services */,
+				BC36888C27412F260049617B /* ViewControllers */,
+				BC36888B27412F1F0049617B /* Model */,
 				BC36887A27412F180049617B /* Main.storyboard */,
 				BC36888027412F190049617B /* Assets.xcassets */,
 				BC36888227412F190049617B /* LaunchScreen.storyboard */,
@@ -70,6 +116,63 @@
 			path = DisplayAlbumiTunes;
 			sourceTree = "<group>";
 		};
+		BC36888B27412F1F0049617B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC36888F274130360049617B /* AlbumModel.swift */,
+				BC3688912741304C0049617B /* AlbumDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC36888C27412F260049617B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC36889D274131050049617B /* SearchCollectionViewController.swift */,
+				BC36889F274131130049617B /* TableViewController.swift */,
+				BC3688A12741311F0049617B /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC36888D27412F330049617B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC368897274130C60049617B /* NetworkManager.swift */,
+				BC3688A52741397E0049617B /* ImageManager.swift */,
+				BC368899274130DA0049617B /* DataManager.swift */,
+				BC36889B274130EF0049617B /* Storage.swift */,
+				BC3688A3274131A30049617B /* Connectivity.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC36888E27412F3C0049617B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC368893274130620049617B /* ImageView.swift */,
+				BC368895274130950049617B /* CollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC3688A727413A540049617B /* ExtensionSearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				BC3688A827413AB70049617B /* UICollectionViewFlowLayout.swift */,
+				BC3688AA27413B9E0049617B /* UISearchResultsUpdating.swift */,
+			);
+			path = ExtensionSearchVC;
+			sourceTree = "<group>";
+		};
+		FC058DE1251457BDB2897ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C80D9AA78209ACDD7006F44B /* Pods_DisplayAlbumiTunes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC36888827412F190049617B /* Build configuration list for PBXNativeTarget "DisplayAlbumiTunes" */;
 			buildPhases = (
+				3FBC603D49C009102FA01ACD /* [CP] Check Pods Manifest.lock */,
 				BC36886D27412F180049617B /* Sources */,
 				BC36886E27412F180049617B /* Frameworks */,
 				BC36886F27412F180049617B /* Resources */,
+				7DF62D0794C2F04634664845 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,7 +201,6 @@
 		BC36886927412F180049617B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -106,7 +210,7 @@
 				};
 			};
 			buildConfigurationList = BC36886C27412F180049617B /* Build configuration list for PBXProject "DisplayAlbumiTunes" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,15 +240,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FBC603D49C009102FA01ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisplayAlbumiTunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF62D0794C2F04634664845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisplayAlbumiTunes/Pods-DisplayAlbumiTunes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisplayAlbumiTunes/Pods-DisplayAlbumiTunes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisplayAlbumiTunes/Pods-DisplayAlbumiTunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC36886D27412F180049617B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC36887927412F180049617B /* ViewController.swift in Sources */,
+				BC368898274130C60049617B /* NetworkManager.swift in Sources */,
+				BC36889C274130EF0049617B /* Storage.swift in Sources */,
+				BC3688A4274131A30049617B /* Connectivity.swift in Sources */,
+				BC3688A0274131130049617B /* TableViewController.swift in Sources */,
+				BC36889A274130DA0049617B /* DataManager.swift in Sources */,
+				BC36889E274131050049617B /* SearchCollectionViewController.swift in Sources */,
+				BC3688A62741397E0049617B /* ImageManager.swift in Sources */,
+				BC368890274130360049617B /* AlbumModel.swift in Sources */,
+				BC3688922741304C0049617B /* AlbumDetail.swift in Sources */,
 				BC36887527412F180049617B /* AppDelegate.swift in Sources */,
 				BC36887F27412F180049617B /* DisplayAlbumiTunes.xcdatamodeld in Sources */,
+				BC368894274130620049617B /* ImageView.swift in Sources */,
+				BC3688AB27413B9E0049617B /* UISearchResultsUpdating.swift in Sources */,
+				BC3688A927413AB70049617B /* UICollectionViewFlowLayout.swift in Sources */,
+				BC368896274130950049617B /* CollectionView.swift in Sources */,
 				BC36887727412F180049617B /* SceneDelegate.swift in Sources */,
+				BC3688A22741311F0049617B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +447,7 @@
 		};
 		BC36888927412F190049617B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15773E65D967B63E8B84F4D8 /* Pods-DisplayAlbumiTunes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,8 +459,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +478,7 @@
 		};
 		BC36888A27412F190049617B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A875DE3D2210756BAC689FA3 /* Pods-DisplayAlbumiTunes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,8 +490,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
